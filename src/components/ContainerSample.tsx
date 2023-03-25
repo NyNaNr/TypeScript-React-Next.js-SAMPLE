@@ -21,7 +21,6 @@ const Parent = (): JSX.Element => {
         <Container title="Helllllllo">
             <p>ここの部分が背景色で囲まれます。
                 
-                まんたま
             </p>
         </Container>
     )

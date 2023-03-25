@@ -1,5 +1,11 @@
 import React, { useState, useCallback } from 'react'
 
+
+
+//useCallback lesson
+
+
+
 type ButtonProps = {
     onClick: ()=> void
 }
@@ -47,11 +53,17 @@ export const Parent3 = () => {
         setCount((c) => c-1 )
     }
 
-    const increment =() => {
-        setCount((c) => c + 1)
-    }
+    // const increment =() => {
+    //     setCount((c) => c + 1)
+    // }
 
-    //useCallbackを使ってメモ化する。
+
+    const increment =useCallback(() => {
+        setCount((c) => c + 1)
+    },[])
+
+
+    //useCallbackを使ってメモ化する。useCallbackの第一引数は関数、第二引数は依存配列
     const double = useCallback(() => {
         setCount((c) => c*2)
     },[])
