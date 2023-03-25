@@ -8,6 +8,7 @@ import Hooks_useState_counter from './components/Hooks_useState_counter'
 import Hooks_useReducer_counter from './components/Hooks_useReducer_counter'
 import { Parent } from './components/Parent'
 import { Parent2 } from './components/Parent2'
+import { Parent3 } from './components/Parent3'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -23,6 +24,7 @@ root.render(
     <Hooks_useReducer_counter initialValue={0} />
     <Parent />
     <Parent2 />
+    <Parent3 />
   </React.StrictMode>
 );
 

@@ -1,5 +1,8 @@
 import React, { memo, useState } from 'react'
 
+
+//P96 useMemo ダメな例
+
 type Fizzprops = {
     isFizz: boolean
 }

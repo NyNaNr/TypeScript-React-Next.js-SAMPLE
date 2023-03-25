@@ -1,4 +1,6 @@
 import React, { memo, useState } from 'react'
+//P94 useMemo how to 
+
 
 type Fizzprops = {
     isFizz: boolean
