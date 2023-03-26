@@ -9,6 +9,8 @@ import Hooks_useReducer_counter from './components/Hooks_useReducer_counter'
 import { Parent } from './components/Parent'
 import { Parent2 } from './components/Parent2'
 import { Parent3 } from './components/Parent3'
+import { UseMemoSample } from './components/UseMemoSample';
+import { Clock } from './components/Clock';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -25,6 +27,8 @@ root.render(
     <Parent />
     <Parent2 />
     <Parent3 />
+    <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
