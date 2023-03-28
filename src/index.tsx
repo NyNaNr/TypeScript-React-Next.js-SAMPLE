@@ -11,6 +11,8 @@ import { Parent2 } from './components/Parent2'
 import { Parent3 } from './components/Parent3'
 import { UseMemoSample } from './components/UseMemoSample';
 import { Clock } from './components/Clock';
+import { Parent4 } from './components/useContextSample';
+import { ImageUpLoader } from './components/useRefSample';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -29,6 +31,8 @@ root.render(
     <Parent3 />
     <UseMemoSample />
     <Clock />
+    <Parent4 />
+    <ImageUpLoader />
   </React.StrictMode>
 );
 
